@@ -1,8 +1,7 @@
-import { NuxtLink } from '../.nuxt/components';
 <template>
-  <div>
-    I'm index page
-  </div>
+  <article class="prose dark:prose-invert max-w-none">
+    <ContentDoc path="/"/>
+  </article>
 </template>
 
 <script setup>
